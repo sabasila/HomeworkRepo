@@ -10,3 +10,4 @@ public class n8 {
 // pirobashi arasworad ewera 2665 wami ar aris 1 saatze meti
     }
 }
+
