@@ -8,9 +8,9 @@ public class d3n4 {
         System.out.print("B: ");
         int b = scanner.nextInt();
             while (b != 0) {
-                int temp = b;
+                int c = b;
                 b = a % b;
-                a = temp;
+                a = c;
             }
         System.out.println("usg " + a) ;
 
