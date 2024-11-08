@@ -20,7 +20,7 @@ public class n9
                 c++ ;
             }
         }
-        int[] newarr= new int[c];
+        int[] newarr = new int[c];
         int index = 0 ;
 
         for (int num : b)
