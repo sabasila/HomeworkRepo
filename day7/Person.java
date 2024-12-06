@@ -1,3 +1,5 @@
+package day7;
+
 public class Person
 {
     private String accNumber;
