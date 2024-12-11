@@ -1,20 +1,20 @@
 package day9;
-
-public class WeatherForecast {
+public class WeatherForecast
+{
     private String cityName;
     private double windSpeed;
     private int rainCoverage;
     private boolean isRaining;
-    private boolean isCloudy;
+    private boolean Cloudy;
     private boolean isSunny;
 
-    // Constructor
-    public WeatherForecast(String cityName, double windSpeed, int rainCoverage, boolean isRaining, boolean isCloudy, boolean isSunny) {
+    public WeatherForecast(String cityName, double windSpeed, int rainCoverage, boolean isRaining, boolean isCloudy, boolean isSunny)
+    {
         this.cityName = cityName;
         this.windSpeed = windSpeed;
         this.rainCoverage = rainCoverage;
         this.isRaining = isRaining;
-        this.isCloudy = isCloudy;
+        this.Cloudy = isCloudy;
         this.isSunny = isSunny;
     }
 
@@ -52,11 +52,11 @@ public class WeatherForecast {
     }
 
     public boolean isCloudy() {
-        return isCloudy;
+        return Cloudy;
     }
 
     public void setCloudy(boolean cloudy) {
-        isCloudy = cloudy;
+        Cloudy = cloudy;
     }
 
     public boolean isSunny() {
@@ -67,4 +67,4 @@ public class WeatherForecast {
         isSunny = sunny;
     }
     }
-}
+
