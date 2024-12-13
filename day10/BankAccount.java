@@ -11,10 +11,9 @@ public class BankAccount {
         this.holder = holder;
         this.balance = initialBalance;
         this.history = new String[100];
-        this.locked = true; // Account is unlocked by default
+        this.locked = true;
     }
 
-    // 1) Method to print transaction history
     public void printHistory() {
         if (!locked) {
             System.out.println("დაბლოკილია");
