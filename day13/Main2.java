@@ -1,4 +1,6 @@
-abstract class Toy
+import ProjectN1.Toy;
+
+abstract class Toy1
 {
     public abstract double getPrice();
 }
