@@ -1,3 +1,5 @@
+package day17;
+
 import java.util.Scanner;
 
 class NegativeNumberException extends Exception
