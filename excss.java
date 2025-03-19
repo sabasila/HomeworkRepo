@@ -4,17 +4,17 @@ import java.util.Comparator;
 
 public class excss {
     public static void main(String[] args) {
-        ArrayList<Student> students = new ArrayList<>();
-        students.add(new Student(1, "გიორგი", "ბერა"));
-        students.add(new Student(2, "ანა", "გველესიანი"));
-        students.add(new Student(3, "გიორგი", "მელი"));
-        students.add(new Student(4, "ანა", "ზოიძე"));
-        students.add(new Student(5, "გოჩა", "გაგნიძე"));
+        ArrayList<Collections3.Student> students = new ArrayList<>();
+        students.add(new Collections3.Student(1, "გიორგი", "ბერა"));
+        students.add(new Collections3.Student(2, "ანა", "გველესიანი"));
+        students.add(new Collections3.Student(3, "გიორგი", "მელი"));
+        students.add(new Collections3.Student(4, "ანა", "ზოიძე"));
+        students.add(new Collections3.Student(5, "გოჩა", "გაგნიძე"));
 
-        Collections.sort (students, new Comparator<Student>()
+        Collections.sort (students, new Comparator<Collections3.Student>()
         {
             @Override
-            public int compare(Student s1, Student s2)
+            public int compare(Collections3.Student s1, Collections3.Student s2)
             {
                 int nameCompare = s1.getFirstName().compareTo(s2.getFirstName());
 
@@ -29,7 +29,7 @@ public class excss {
             }
 
         });
-        for (Student student : students)
+        for (Collections3.Student student : students)
         {
             System.out.println(student);
         }
@@ -58,6 +58,6 @@ class Student
     }
     @Override
     public String toString() {
-        return "Student{id=" + id + ", firstName='" + firstName + "', lastName='" + lastName + "'}";
+        return "Collections3.Student{id=" + id + ", firstName='" + firstName + "', lastName='" + lastName + "'}";
     }
 }
