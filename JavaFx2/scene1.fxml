@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="JavaFx2.Controller22">
+    <children>
+        <Button fx:id="switchToYellowButton" layoutX="150.0" layoutY="100.0" text="Switch to Yellow Scene" onAction="#switchToYellow"/>
+        <Button fx:id="switchToRedButton" layoutX="150.0" layoutY="150.0" text="Switch to Red Scene" onAction="#switchToRed"/>
+        <Button fx:id="switchToGreenButton" layoutX="150.0" layoutY="200.0" text="Switch to Green Scene" onAction="#switchToGreen"/>
+    </children>
+</AnchorPane>

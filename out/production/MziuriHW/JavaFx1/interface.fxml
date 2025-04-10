@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaFx1.Controller">
+    <children>
+        <Circle fx:id="circle" centerX="150.0" centerY="150.0" fill="BLUE" radius="20.0" />
+
+        <Button layoutX="50" layoutY="300" onAction="#moveUp" text="⬆ ზემოთ" />
+        <Button layoutX="50" layoutY="340" onAction="#moveDown" text="⬇ ქვევით" />
+        <Button layoutX="110" layoutY="320" onAction="#moveLeft" text="⬅ მარცხნივ" />
+        <Button layoutX="180" layoutY="320" onAction="#moveRight" text="➡ მარჯვნივ" />
+
+        <Button layoutX="279.0" layoutY="258.0" onAction="#moveUpLeft" prefHeight="67.0" prefWidth="90.0" text="↖ ზემ.მარცხ." />
+        <Button layoutX="280" layoutY="340" onAction="#moveDownLeft" text="↙ ქვ.მარცხ." />
+        <Button layoutX="370" layoutY="258.0" onAction="#moveUpRight" prefHeight="67.0" prefWidth="94.0" text="↗ ზემ.მარჯვ." />
+        <Button layoutX="370" layoutY="340" onAction="#moveDownRight" text="↘ ქვ.მარჯვ." />
+
+        <Button layoutX="50" layoutY="400" onAction="#setRed" text="🔴 გახდეს წითელი" />
+        <Button layoutX="220.0" layoutY="386.0" onAction="#changeColor" text="🎨 შეცვალე ფერი" />
+    </children>
+</AnchorPane>
