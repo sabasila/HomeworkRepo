@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="15" alignment="CENTER" xmlns:fx="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="JavaFx5.CurrencyController">
+
+    <Label text="ვალუტის გადამყვანი" style="-fx-font-size: 18px;"/>
+
+    <HBox spacing="10">
+        <ChoiceBox fx:id="fromCurrency"/>
+        <Label text="→"/>
+        <ChoiceBox fx:id="toCurrency"/>
+    </HBox>
+
+    <Spinner fx:id="amountSpinner" prefWidth="150"/>
+
+    <Label fx:id="resultLabel" style="-fx-font-size: 14px; -fx-text-fill: #2c3e50;"/>
+</VBox>

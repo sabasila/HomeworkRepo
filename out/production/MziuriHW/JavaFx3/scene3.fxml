@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="JavaFx2.Controller22">
+    <Button layoutX="150.0" layoutY="250.0" text="Go Back" onAction="#goBackToMainScene"/>
+</AnchorPane>
